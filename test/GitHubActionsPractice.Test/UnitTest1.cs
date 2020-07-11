@@ -1,5 +1,4 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using KoyashiroKohaku.GitHubActionsPractice;
 using System;
 
 namespace KoyashiroKohaku.GitHubActionsPractice.Test
