@@ -20,9 +20,9 @@ jobs:
     - name: Install .NET Core local tools
       run: dotnet tool restore
     - name: Format check
-      run: dotnet tool run dotnet-format --check --dry-run
+      run: dotnet tool run dotnet-format --check
     - name: Install dependencies
-      run: dotnet restor
+      run: dotnet restore
     - name: Build
       run: dotnet build --configuration Release --no-restore
     - name: Test
